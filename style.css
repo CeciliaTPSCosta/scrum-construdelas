@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: firebrick;
+    cursor: pointer;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    line-height: 2.6rem;
+}
+
+main {
+    font-size: 1.6rem;
+}
+
+.asides {
+    display: flex;
+    padding: 5rem 0;
+    justify-content: space-between;
+}
+
+.asides li {
+    width: 500px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    color: firebrick;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 1.5rem 0;
+}
+
+h3 {
+    padding-top: 3rem;
+    color: firebrick;
+}
+
+h4 {
+    padding-bottom: 1rem;
+}
+
+button {
+    padding: 1.6rem 2.4rem;
+    color: black;
+    border: 1px solid black;
+    background-color: #ece5e5;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
+.scrum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+img {
+    width: 80rem;
+}
+
+.bold {
+    font-weight: 700;
+    color: brown;
+}
+
+footer {
+    color: rgb(77, 85, 94);
+    padding: 2rem;
+    text-align: center;
+}
